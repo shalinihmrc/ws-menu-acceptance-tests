@@ -20,6 +20,10 @@ To run the tests and generate report, run below command
 
 npm test
 
+Note: If you dont have Cucumber installed as dependency please run below command first
+
+npm install --save-dev @cucumber/cucumber
+
 To see the cucumber report in a html format, run below command
 
 node generate-report.js
