@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-navigates-to-the-menu;user-enters-a-valid-table-number-and-navigates-to-the-menu",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User enters a valid table number and navigates to the Menu",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1545019566
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens Choose table page",
+            "match": {
+              "location": "src/tests/steps/BaseUiSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2007511307
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters a valid table number 11 and continue",
+            "match": {
+              "location": "src/tests/steps/BaseUiSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429746044
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should navigate to the Menu page",
+            "match": {
+              "location": "src/tests/steps/BaseUiSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287521
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 218133574
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-navigates-to-the-menu",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User navigates to the Menu",
+    "tags": [],
+    "uri": "src/resources/features/UserNaviagatesToTheMenu.feature"
+  }
+]
