@@ -1,0 +1,14 @@
+{
+  "name": "ws-menu-acceptance-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format json:reports/cucumber-report.json"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
