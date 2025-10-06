@@ -1,8 +1,6 @@
 const { setWorldConstructor, Before, After } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
 
-//const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
 class CustomWorld {
   async init() {
     this.browser = await chromium.launch({ headless: false });
@@ -26,7 +24,3 @@ Before(async function () {
 After(async function () {
   await this.close();
 });
-
-// BeforeStep(async function () {
-//   await delay(500);
-// });

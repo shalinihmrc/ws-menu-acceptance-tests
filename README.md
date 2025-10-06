@@ -15,14 +15,24 @@ The structure of project is as follows:
 ├── package.json              # Project configuration and scripts
 └── README.md                 # Project documentation
 
+Prerequisites
+Node.js
+
+Setup and installation
+Clone the repository using below command
+git clone git@github.com:shalinihmrc/ws-menu-acceptance-tests.git
+
+Navigate to the project 
+cd ws-menu-acceptance-tests
+
+Install project dependencies
+npm install
+npm install --save-dev @cucumber/cucumber
+npx playwright install
 
 To run the tests and generate report, run below command
 
 npm test
-
-Note: If you dont have Cucumber installed as dependency please run below command first
-
-npm install --save-dev @cucumber/cucumber
 
 To see the cucumber report in a html format, run below command
 

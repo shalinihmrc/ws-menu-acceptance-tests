@@ -15,4 +15,5 @@ When('the user enters a valid table number {int} and continue', async function (
 Then('the user should navigate to the Menu page', async function () {
   this.menuPage = new MenuPage(this.page);
   await this.menuPage.assertTitle;
+  await this.menuPage.assertAllergenInfo;
 });

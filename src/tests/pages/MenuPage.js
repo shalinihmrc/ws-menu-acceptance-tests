@@ -7,6 +7,9 @@ class MenuPage {
     }
     async assertTitle() {
         await expect(this.page).toHaveTitle(this.expectedTitle);
+    }
+
+    async assertAllergenInfo() {
         await expect(page.locator('ion-button div')).toHaveText('Allergen and nutritional information');
     }
 }
